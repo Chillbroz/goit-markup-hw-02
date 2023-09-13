@@ -1,11 +1,11 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: #fff;
-  color: #2e2f42;
+  color: #434455;
 }
 
 .logo {
-  color: #2e2f42;
+  color: #4d5ae5;
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -15,8 +15,8 @@ body {
   text-decoration: none;
 }
 
-.web {
-  color: #4d5ae5;
+.logo-color {
+  color: #2e2f42;
 }
 
 .list {
@@ -37,8 +37,11 @@ body {
   color:#404BBF;
 }
 
-.contacts {
+.add-part{
   font-style: normal;
+}
+
+.contacts {
   text-decoration: none;
   color: #434455;
   font-size: 16px;
@@ -51,11 +54,11 @@ body {
   color:#404BBF;
 }
 
-.section-1 {
+.main-sect {
   background: #2e2f42;
 }
 
-.section-1-title {
+.main-sect-title {
   color: #fff;
   text-align: center;
   font-size: 56px;
@@ -64,8 +67,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-.section-1-button {
-  border-radius: 4px;
+.main-sect-button {
   background: #4d5ae5;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: #fff;
@@ -75,12 +77,22 @@ body {
   letter-spacing: 0.04em;
 }
 
-.section-1-button:hover,
-.section-1-button:focus {
+.main-sect-button:hover,
+.main-sect-button:focus {
   background:#404BBF;
 }
 
-.h2-title {
+.team {
+  background:#F4F4FD;
+}
+
+.team-mates {
+  background-color: #FFFFFF;
+}
+
+.sect-title {
+  text-align: center;
+  color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -88,15 +100,15 @@ body {
   text-transform: capitalize;
 }
 
-.h3-title {
+.list-title {
+  color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
 }
 
 .text {
-  color:#434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
