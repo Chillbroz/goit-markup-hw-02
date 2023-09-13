@@ -69,7 +69,6 @@ body {
 
 .main-sect-button {
   background: #4d5ae5;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: #fff;
   font-size: 16px;
   font-weight: 500;
@@ -127,4 +126,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.ft-logo-color {
+  color: #f4f4fd;
 }
